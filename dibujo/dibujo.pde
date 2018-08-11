@@ -25,12 +25,17 @@ line(width * 0.50, height *0.50, width * 0.99, height *0.40);
 line(width * 0.50, height *0.50, width * 0.99, height *0.80);
 line(width * 0.50, height *0.50, width * 0.70, height *0.99);
 
+fill(0, 190, 255);
 ellipse(width * 0.50, height *0.70, 200, 200);
 ellipse(width * 0.50, height *0.50, 150, 150);
-ellipse(width * 0.50, height *0.60, 50, 50);
+fill(100, 170, 255);
 ellipse(width * 0.50, height *0.60, 80, 80);
+fill(0, 180, 255);
+ellipse(width * 0.50, height *0.60, 50, 50);
+
 rect(width*0.43, height*0.10, width * 0.15, height *0.30);
 rect(width*0.405, height*0.03, width * 0.20, height *0.10);
+fill(0, 0, 100);
 rect(width*0.43, height*0.15, width * 0.15, height *0.02);
 rect(width*0.43, height*0.20, width * 0.15, height *0.02);
 rect(width*0.43, height*0.25, width * 0.15, height *0.02);
